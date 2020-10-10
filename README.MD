@@ -53,4 +53,4 @@ fmt.Println(w.Fingerprints)
 - 支持解析
 - 兼容后续的官方指纹库信息
 
-[reference]: https://github.com/AliasIO/wappalyzer)的指纹库,并将其抽取出来作为一个简单的指纹识别库
+[reference]: https://github.com/AliasIO/wappalyzer
