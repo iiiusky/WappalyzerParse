@@ -4,6 +4,7 @@
 ![GitHub](https://img.shields.io/github/license/iiiusky/WappalyzerParse)
 ![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/iiiusky/WappalyzerParse)
 ![GitHub top language](https://img.shields.io/github/languages/top/iiiusky/WappalyzerParse)
+
 ## 描述
 > 该项目是我在小工具中使用到了[Wappalyzer](https://github.com/AliasIO/wappalyzer)的指纹库,并将其抽取出来作为一个简单的指纹识别库][reference].
 > 当前支持直接解析源`technologies.json`文件,并且输出结构体或者json字符串信息,方便后续的使用.
@@ -44,7 +45,7 @@ fmt.Println(w.Fingerprints)
 w := &WappalyzerParse{
     IsDebug: true,
 }
-w.GetFingerPrintData()
+w.InitFingerPrintData()
 fmt.Println(w.Fingerprints)
 ```
 
